@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>--Formulário Contato--</title>
+    <meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <script src="javascript/script.js"></script>
+</head>
+
+<body>
+    <div id="barra1">
+        <a href="Home.html"><img src="imagens/Paiinel Jota.png" width="150px"
+                alt="painel j"></a>
+
+        Sua opinião é importante para nós!!
+    </div>
+
+    <form name="meu_form">
+
+        <h1>Entre em contato</h1>
+
+        <p><input type="text" id="nomeid" placeholder="nome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+
+        <br>
+        <p><input type="tel" id="foneid" placeholder="telefone" required="required" name="fone" />
+            <label for="fone">Fone</label>
+        </p>
+
+        <br>
+        <p><input type="email" id="emailid" placeholder="email" required="required" name="email" />
+            <label for="email">Email</label>
+        </p>
+
+        <br>
+        <p><textarea placeholder="Deixe aqui sua dúvida/opiniao:"></textarea></p>
+
+        <input type="submit" class="enviar" required="required" onclick="Enviar();" value="Enviar" />
+    </form>
+</body>
+
+</html>

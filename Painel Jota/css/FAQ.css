@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section{
+    width: 60%;
+    max-width: 600%;
+}
+
+section details summary {
+    background-image:radial-gradient(circle,#F72F14,#E0511D,#E0511D,#F77214,#FB8605);
+    padding: 2%;
+    border-bottom: (10px solid circle,#F72F14,#E0511D,#E0511D,#F77214,#FB8605);
+    color : rgb(136, 17, 17);
+    font-weight: 750;
+
+}
+
+section details p {
+    background-color:rgb(3, 3, 3);
+    background-image:radial-gradient(circle,#F72F14,#E0511D,#E0511D,#F77214,#FB8605);
+    padding: 2%;
+    text-align: center;
+}
+
+details {
+    margin: 5px;
+}
+
+
+

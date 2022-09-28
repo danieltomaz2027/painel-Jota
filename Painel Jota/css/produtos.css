@@ -1,0 +1,39 @@
+body{background: #f4b48c;}
+h1{color: white;
+font-size: 50px;}
+#principal{box-sizing: border-box;
+    list-style-type: none;
+    background-color: black;}
+    #principal li{display: inline;}
+    #principal li a {color: white;
+        padding: 12px;
+        display: inline-block;
+    text-decoration: none;}
+    #principal li a:hover{background-color: goldenrod;
+        color: aquamarine;
+    transition: background .4s;} 
+#banner{margin-left: 30%}
+    h2{text-align: center;}
+div.galeria{text-align: center;
+    margin: 5px;
+    padding: 15px;
+    margin-bottom: 50px;
+border: 1px solid #896255;
+float: left;
+width: 180px;}
+div.galeria:hover{border: 1px solid #752b0f;}
+div.galeria img{width: 100%;
+height: auto;}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+#rodape{clear: both;
+margin-top: 50px;
+height: 300px;
+width: 100%;
+background-color: burlywood;}
+@media only screen and (max-width:690){
+body{background-color:#896255;}
+#banner{height: auto;
+width: 100%;}}

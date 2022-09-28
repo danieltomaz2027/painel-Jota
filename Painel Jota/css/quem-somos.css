@@ -1,0 +1,122 @@
+section.h1{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+section.h1 .div{
+   background: #e46434;
+   width: 1200px;
+   margin: 15px;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 25px;
+    transition: all 100ms ease;
+}
+section.h1 .div:hover{
+    box-shadow: 1rem 1rem 3rem black;
+}
+
+section.dois li a{
+    font-size: 0.9em;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    
+} 
+
+section.dois .um  li{
+   border: solid 5px #e46434;
+    background-color: #e46434;
+   border-radius: 30px;
+    margin: 205px;
+    margin-right: 100px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 1px;
+    transition: all 100ms ease;
+  
+} 
+section.dois .um  li:hover{
+    box-shadow: 1rem 1rem 4rem black;
+}
+
+
+#centro{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+div{
+    display: inline-block;
+    justify-content:space-evenly;
+}
+section.usb .tres .quatro1{
+    justify-content:space-evenly;
+    background:#e46434;
+    position: relative;
+    padding-bottom: 10px;
+    width: 250px;
+    color: white;
+    margin-left: -800px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: -70px ;
+}
+
+section.usb .tres{
+    float: right;
+    margin: -115px;
+    margin-right: 390px;
+    margin-top: 10px;
+}
+
+section.usb .tres .quatro2{
+    background:#e46434;
+    position:relative;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-top: -60px;
+    margin: -50px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    flex-direction:column;
+    border-radius: 50px;
+    margin-top: -60px;
+    
+}
+section.usb .tres .quatro3{
+    justify-content:space-evenly;
+    background:#e46434;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    margin: -100px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    margin-right: -40px;
+    margin-left: 200px;
+    right: -60px;
+    top: -300px;
+}
+
+
+section.usb .tres .quatro3:hover{
+box-shadow: 1rem 1rem 3rem black;
+    }
+section.usb .tres .quatro2:hover{
+box-shadow: 1rem 1rem 3rem black;
+    }
+section.usb .tres .quatro1:hover{
+box-shadow: 1rem 1rem 3rem black;}

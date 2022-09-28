@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(imagens/Paiinel-jota.png);
+    background-repeat: no-repeat;
+    background-position: 0px 250px;
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    height: 580px;
+    margin-left: 600px;
+    box-shadow: 5px 5px 5px black;
+    background-color: #e46434;
+    max-width: 500px;
+    border-radius: 2.5%;
+}
+
+ #barra1{
+     height: 160px;
+     background-color: #e45622;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+     font-size: larger;
+     color: whitesmoke;
+     
+ }
+ 
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px rgb(41, 40, 40);
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px black;
+    background-color: #d4d1d1;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: whitesmoke;
+    height: 40px;
+    width: 100px;
+    margin-left: 200px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
